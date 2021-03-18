@@ -13,7 +13,7 @@ public class MainForExercise8 {
 		int humanCount = sc.nextInt();
 		
 		Humans humans = new Humans();
-		Human[] human = new Human[6];//create an array human object and get the name and weight on earth
+		Human[] human = new Human[humanCount];//create an array human object and get the name and weight on earth
 		for(int i = 0;i<humanCount;i++) {
 		human[i] = new Human();
 		System.out.print("\nhuman name : ");
